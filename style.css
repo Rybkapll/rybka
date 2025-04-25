@@ -1,0 +1,21 @@
+body {
+  background-color: #cceeff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #004466;
+}
+
+img#rybka {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+img#rybka:hover {
+  transform: scale(1.1) rotate(5deg);
+}
